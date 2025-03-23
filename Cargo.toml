@@ -1,0 +1,13 @@
+[package]
+name = "solana_simple_program"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "solana_simple_program"
+crate-type = ["cdylib"]
+
+[dependencies]
+solana-program = "2.2.1"
+borsh = { version = "1.5.6", features = ["derive"] }
+
