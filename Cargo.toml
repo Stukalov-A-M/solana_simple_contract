@@ -5,9 +5,9 @@ edition = "2021"
 
 [lib]
 name = "solana_simple_program"
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "lib"]
 
 [dependencies]
-solana-program = "2.2.1"
+solana-program = "1.18.26"
 borsh = { version = "1.5.6", features = ["derive"] }
 
